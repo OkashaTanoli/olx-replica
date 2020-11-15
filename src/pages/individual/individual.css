@@ -1,0 +1,72 @@
+.DetailsDiv{
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid rgb(206, 206, 206);
+    margin-top: 10px;
+    padding: 20px;
+}
+.DetailsDiv h5{
+    color: rgb(0, 43, 46) ;
+    font-weight: 700;
+}
+.OwnerDiv{
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid rgb(206, 206, 206);
+    padding: 20px;
+    margin-bottom: 10px;
+    /* margin-top: 10px; */
+}
+.OwnerDescrp{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+}
+.sellerDescHover:hover{
+    background-color: white !important;
+    color: rgb(0,43,47) !important;
+}
+.sellerDescHover:focus{
+    outline: none;
+}
+
+
+
+
+@media(max-width:800px){
+    #individualDiv{
+        width: 100% !important;
+        display: inline-block !important;
+        margin: 30px 0px 0px 0px !important;
+    }
+    .firstPart{
+        width: 100% !important;
+        margin-bottom: 10px !important;
+    }
+    .secondPart{
+        width: 100% !important;
+        margin-left: 0px !important;
+    }
+    #imageDiv{
+        width: 100% !important;
+        height: 180px !important;
+    }
+    .conditionDiv{
+        width: 100% !important;
+    }
+    .descripDiv{
+        width: 100% !important;
+    }
+    .reportDiv{
+        padding: 10px;
+        /* width: 95% !important; */
+    }
+}
+
+
+@media(max-width:600px){
+    .mobilePic{
+        display: none !important;
+    }
+}

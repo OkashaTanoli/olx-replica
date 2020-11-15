@@ -1,0 +1,48 @@
+.full{
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 150px;
+    padding-top: 50px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.card{
+    border: 1px solid rgb(192, 192, 192) !important;
+    width: 290px;
+    height: 260px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    /* padding: 10px; */
+    padding-bottom: 0px !important;
+    cursor: pointer;
+}
+.ImgDiv{
+    height:200px !important;
+    width: 50%;
+    overflow: hidden;
+    background-color: black;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.card-img-top{
+    height: 100%;
+    width:100%;
+}
+.card-body{
+    margin-left: -10px;
+}
+.text{
+    margin-top: -10px;
+    color: rgb(92, 92, 92);
+}
+
+
+
+
+
+
+
+

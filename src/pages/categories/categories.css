@@ -1,0 +1,25 @@
+.fullForCat{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.ForSaleImageDiv{
+    overflow: hidden !important;
+}
+
+
+
+@media(max-width:900px){
+    .ForReducingMargin{
+        margin-left: 10px !important;
+        margin-right: 10px !important;
+        margin-top: 50px !important;
+    }
+}
+
+@media(max-width:600px){
+    .ForSaleImage{
+        width: 500px;
+    }
+}

@@ -1,0 +1,42 @@
+.mainCatSelDiv{
+    border: 1px solid rgb(172, 172, 172);
+    border-radius: 5px;
+    width: 400px;
+    padding-bottom: 20px;
+    margin: 20px auto;
+}
+.chooseACat h6{
+    padding: 20px;
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 19px;
+}
+.CategoriesSelection{
+    color: rgba(0, 43, 46,.7);
+    padding: 10px;
+    cursor: pointer;
+
+}
+.CategoriesSelection:hover{
+    background-color: rgba(58, 86, 88,0.5);
+    color:rgb(0, 43, 46) ;
+}
+.forBorder{
+    border-top: 1px solid  rgb(172, 172, 172);
+    border-bottom: 1px solid  rgb(172, 172, 172);
+}
+.forBorderBottom{
+    border-bottom: 1px solid  rgb(172, 172, 172);
+}
+.forMarginRight{
+    margin-right: 20px;
+    margin-top: -2px;
+    font-size: 20px;
+}
+
+@media(max-width:450px){
+    .mainCatSelDiv{
+        width: 90%;
+    }
+}

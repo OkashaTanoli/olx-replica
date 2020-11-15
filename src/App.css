@@ -1,0 +1,174 @@
+.cancel{
+    position: absolute;
+    top: -30px;
+    right: 0px;
+    transform: rotate(45deg);
+    font-size: 70px;
+    font-weight: 100;
+    color: gray;
+    cursor: pointer;
+}
+.modalContent{
+    display: flex;
+}
+.loginItem{
+    position: absolute;
+    text-align: center;
+    top: 50px;
+    width: 100%;
+}
+.fbBtn{
+    margin-top: -6px;
+}
+.AllBtn{
+    margin-bottom: 10px;
+    width: 92%;
+    border:2px solid rgb(0, 43, 46);;
+    padding: 10px;
+    font-weight: 700;
+    color: rgb(0, 43, 46);
+    border-radius: 4px;
+
+}
+.Error{
+    margin-top: 45px;
+    font-size: 15px;
+    color: rgb(163, 1, 1);
+}
+.position{
+    /* display: none; */
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0,0.7);
+    z-index: 2;
+}
+.modalContent{
+    position: relative;
+    margin: 0 auto;
+    border-radius: 5px;
+    /* left: 30%; */
+    top: 11%;
+    width: 400px;
+    height:500px;
+    background-color: rgb(238, 238, 238);
+}
+.small{
+    font-size: 16px;
+    margin-top: 20px;
+}
+.saveItems{
+    margin-top: 20px;
+    color: rgb(0, 43, 46);
+}
+.AllBtn:hover{
+    border:4px solid rgb(0, 43, 46);;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.full{
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 150px;
+    padding-top: 50px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.card{
+    border: 1px solid rgb(192, 192, 192) !important;
+    width: 290px;
+    height: 260px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    /* padding: 10px; */
+    padding-bottom: 0px !important;
+    cursor: pointer;
+}
+/* .ImgDiv{
+    height:600px !important;
+    width: 100%;
+    overflow: hidden;
+    background-color: black;
+    margin: 0 auto;
+    margin-top: 10px;
+} */
+/* .card-img-top{
+    height: 100%;
+    width:auto;
+} */
+.card-body{
+    margin-left: -10px;
+}
+.text{
+    margin-top: -10px;
+    color: rgb(92, 92, 92);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 800px) {
+    .full{
+      margin-left: 10px !important;
+      margin-right: 10px !important;
+      margin-top: 20px !important;
+      padding-top: 10px !important;
+      padding-right: 0px !important;
+      justify-content: center;
+
+  }
+  .card{
+      height: 100%;
+      margin-left: 0px !important;
+      padding-bottom: 0px !important;
+      cursor: pointer;
+  }
+  .OlxImage{
+      height: 200px;
+      width: 1000px;
+      overflow: hidden;
+  }
+  .modalContent{
+    width:95%;
+    height:500px;
+}
+    
+}
+
+@media(max-width: 350px) {
+    .card{
+        width: 100% !important;
+    }   
+}
